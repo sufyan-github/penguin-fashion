@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Fasion</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <header class="bg-[#FFFBF0] py-20 px-4 md:px-32">
+        <!-- Nav Section  -->
+        <nav class="flex justify-between items-center">
+            <div class="container mx-auto flex items-center justify-between">
+                <!-- Logo Section -->
+                <div>
+                    <img src="../icons/logo.png" alt="Penguin Logo" class="h-9 w-70">
+                </div>
+
+                <!-- Navigation Links -->
+                <ul class="flex space-x-20 text-gray-800 font-medium">
+                    <li><a href="#" class="hover:text-[#5B8C00]">Home</a></li>
+                    <li><a href="#" class="hover:text-[#5B8C00]">Product</a></li>
+                    <li><a href="#" class="hover:text-[#5B8C00]">About Us</a></li>
+                    <li><a href="#" class="hover:text-[#5B8C00]">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Banner Section  -->
+        <div class="flex flex-col md:flex-row justify-between items-center">
+            <div class="space-y-3">
+                <h1 class="text-7xl uppercase bebas-neue-regular">
+                    <span class="text-[#FABE4C]">Be The Penguins</span> <br> of Winter
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> Perferendis vero esse ea temporibus
+                    aspernatur, perspiciatis quaerat </p>
+                <button
+                    class="py-4 px-9 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl uppercase text-white font-medium"><svg
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6 inline">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                    </svg>
+
+                    Buy Now</button>
+            </div>
+            <div>
+                <img src="../images/model.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <!-- End Header  -->
+
+    <!-- Start main  -->
+    <main class="max-w-7xl mx-auto ">
+        <!-- Women Jacket section  -->
+        <section class="py-12">
+            <h3 class="text-5xl bebas-neue-regular ">Women Jackets</h3>
+            <!-- jacket container  -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 roboto-black">
+                <!-- Jacket 1  -->
+                <div class="max-w-sm mx-auto bg-white rounded-2xl shadow-lg p-6 space-y-4">
+                    <!-- Image Section -->
+                    <div class="bg-gray-100 p-5 rounded-xl">
+                        <img src="../images/jacket-1.png" alt="Yellow Coat Jacket" class="w-full">
+                    </div>
+                    <!-- Title Section -->
+                    <h4 class="text-xl font-bold text-gray-800">Yellow Coat Jacket</h4>
+                    <p class="text-sm text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                        minima!</p>
+                    <!-- Price and Button Section -->
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-3xl font-extrabold text-orange-400">$234</h3>
+                        <button
+                            class="py-3 px-6 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl uppercase text-white font-medium flex items-center gap-2 hover:opacity-90">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg>
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Jacket 2 -->
+                <div class="max-w-sm mx-auto bg-white rounded-2xl shadow-lg p-6 space-y-4">
+                    <!-- Image Section -->
+                    <div class="bg-gray-100 p-5 rounded-xl">
+                        <img src="../images/jacket-2.png" alt="Yellow Coat Jacket" class="w-full">
+                    </div>
+                    <!-- Title Section -->
+                    <h4 class="text-xl font-bold text-gray-800">Yellow Coat Jacket</h4>
+                    <p class="text-sm text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                        minima!</p>
+                    <!-- Price and Button Section -->
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-3xl font-extrabold text-orange-400">$234</h3>
+                        <button
+                            class="py-3 px-6 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl uppercase text-white font-medium flex items-center gap-2 hover:opacity-90">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg>
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Jacket 3 -->
+                <div class="max-w-sm mx-auto bg-white rounded-2xl shadow-lg p-6 space-y-4">
+                    <!-- Image Section -->
+                    <div class="bg-gray-100 p-5 rounded-xl">
+                        <img src="../images/jacket-3.png" alt="Yellow Coat Jacket" class="w-full">
+                    </div>
+                    <!-- Title Section -->
+                    <h4 class="text-xl font-bold text-gray-800">Yellow Coat Jacket</h4>
+                    <p class="text-sm text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                        minima!</p>
+                    <!-- Price and Button Section -->
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-3xl font-extrabold text-orange-400">$234</h3>
+                        <button
+                            class="py-3 px-6 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl uppercase text-white font-medium flex items-center gap-2 hover:opacity-90">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg>
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+        </section>
+        <!-- End Women Jacket section  -->
+
+        <!-- Men Jacket section  -->
+        <section class="py-12">
+            <h3 class="text-5xl bebas-neue-regular ">Women Jackets</h3>
+            <!-- jacket container  -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 roboto-black">
+                <!-- Jacket 4  -->
+                <div class="max-w-sm mx-auto bg-white rounded-2xl shadow-lg p-6 space-y-4">
+                    <!-- Image Section -->
+                    <div class="bg-gray-100 p-5 rounded-xl">
+                        <img src="../images/jacket-4.png" alt="Yellow Coat Jacket" class="w-full">
+                    </div>
+                    <!-- Title Section -->
+                    <h4 class="text-xl font-bold text-gray-800">Yellow Coat Jacket</h4>
+                    <p class="text-sm text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                        minima!</p>
+                    <!-- Price and Button Section -->
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-3xl font-extrabold text-orange-400">$234</h3>
+                        <button
+                            class="py-3 px-6 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl uppercase text-white font-medium flex items-center gap-2 hover:opacity-90">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg>
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Jacket 5 -->
+                <div class="max-w-sm mx-auto bg-white rounded-2xl shadow-lg p-6 space-y-4">
+                    <!-- Image Section -->
+                    <div class="bg-gray-100 p-5 rounded-xl">
+                        <img src="../images/jacket-5.png" alt="Yellow Coat Jacket" class="w-full">
+                    </div>
+                    <!-- Title Section -->
+                    <h4 class="text-xl font-bold text-gray-800">Yellow Coat Jacket</h4>
+                    <p class="text-sm text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                        minima!</p>
+                    <!-- Price and Button Section -->
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-3xl font-extrabold text-orange-400">$234</h3>
+                        <button
+                            class="py-3 px-6 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl uppercase text-white font-medium flex items-center gap-2 hover:opacity-90">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg>
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Jacket 6 -->
+                <div class="max-w-sm mx-auto bg-white rounded-2xl shadow-lg p-6 space-y-4">
+                    <!-- Image Section -->
+                    <div class="bg-gray-100 p-5 rounded-xl">
+                        <img src="../images/jacket-6.png" alt="Yellow Coat Jacket" class="w-full">
+                    </div>
+                    <!-- Title Section -->
+                    <h4 class="text-xl font-bold text-gray-800">Yellow Coat Jacket</h4>
+                    <p class="text-sm text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                        minima!</p>
+                    <!-- Price and Button Section -->
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-3xl font-extrabold text-orange-400">$234</h3>
+                        <button
+                            class="py-3 px-6 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl uppercase text-white font-medium flex items-center gap-2 hover:opacity-90">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg>
+                            Buy Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- End Men Jacket section  -->
+        </section>
+        <!-- End Men Jacket section  -->
+
+        <!-- shopping section 
+        <section class="container">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div >
+                    <div class="flex justify-between items-center">
+                        <div class="flex space-x-5">
+                            <img src="../icons/house.png" alt="">
+                            <div>
+                                <h3>Find the Perfect fit</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, culpa?</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="../icons/box.png" alt="">
+                            <div>
+                                <h3>Free Exchange</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, culpa?</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="../icons/question.png" alt="">
+                            <div>
+                                <h3>Contact Our Seller</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, culpa?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="../images/shopping.png" alt="">
+                </div>
+            </div>
+        </section> -->
+
+        <section class="container mx-auto px-6 py-10 flex items-center justify-between space-x-10">
+            <!-- Left Section: Features -->
+            <div class="space-y-6">
+                <!-- Feature 1 -->
+                <div class="flex items-center space-x-4 bg-white p-4 rounded-lg shadow-md">
+                    <div class="flex-shrink-0">
+                        <img src="../icons/house.png" alt="Perfect Fit Icon" class="h-10 w-10">
+                        <!-- Replace with actual icon -->
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-800">Find the Perfect Fit</h3>
+                        <p class="text-sm text-gray-600">
+                            Everybody is different, which is why we offer styles for every body.
+                        </p>
+                    </div>
+                </div>
+                <!-- Feature 2 -->
+                <div class="flex items-center space-x-4 bg-white p-4 rounded-lg shadow-md">
+                    <div class="flex-shrink-0">
+                        <img src="../icons/box.png" alt="Free Exchanges Icon" class="h-10 w-10">
+                        <!-- Replace with actual icon -->
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-800">Free Exchanges</h3>
+                        <p class="text-sm text-gray-600">
+                            One of the many reasons you can shop with peace of mind.
+                        </p>
+                    </div>
+                </div>
+                <!-- Feature 3 -->
+                <div class="flex items-center space-x-4 bg-white p-4 rounded-lg shadow-md">
+                    <div class="flex-shrink-0">
+                        <img src="../icons/question.png" alt="Contact Seller Icon" class="h-10 w-10">
+                        <!-- Replace with actual icon -->
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-800">Contact Our Seller</h3>
+                        <p class="text-sm text-gray-600">
+                            They are here to help you. That’s quite literally what we pay them for.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Section: Illustration -->
+            <div>
+                <img src="../images/shopping.png" alt="Shopping Illustration" class="w-[780px] h-auto">
+                <!-- Replace with actual illustration -->
+            </div>
+        </section>
+    </main>
+    <!-- End main  -->
+
+    <!-- Start Footer  -->
+    <footer>
+
+    </footer>
+    <!-- End Footer  -->
+</body>
+
+</html>
